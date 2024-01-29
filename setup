@@ -1,0 +1,10 @@
+sudo apt-get update && sudo apt-get dist-upgrade
+sudo apt-get install xfce4
+sudo apt-get install firefox-esr
+sudo apt-get install synaptic gdebi ufw inxi baobab mousepad abiword gnome-logs$
+sudo apt-get purge openresolv dhcpcd5
+sudo dpkg-reconfigure keyboard-configuration
+sudo timedatectl set-timezone Europe/Berlin
+sudo rm -v /etc/inxi.conf
+sudo inxi -U
+inxi -Fxpmr
